@@ -1,5 +1,5 @@
-version: '3.0'
-  services:
+version:"3.0"
+services:
     mongo:
       images: mongo
       restart: always
