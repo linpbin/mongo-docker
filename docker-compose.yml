@@ -1,0 +1,12 @@
+version: '3.0'
+  services:
+    mongo:
+      images: mongo
+      restart: always
+      ports:
+        - "27017:27017"
+#      environment:
+#        MONGO_INITDB_ROOT_USERNAME: root
+#        MONGO_INITDB_ROOT_PASSWORD: 123456
+      volumes:
+        - /home/deployer/mongo:/etc/mongo
