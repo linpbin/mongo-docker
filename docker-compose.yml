@@ -9,4 +9,4 @@ services:
 #        MONGO_INITDB_ROOT_USERNAME: root
 #        MONGO_INITDB_ROOT_PASSWORD: 123456
       volumes:
-        - /home/deployer/mongo:/etc/mongo
+        - /home/deployer/mongo/data:/etc/mongo
